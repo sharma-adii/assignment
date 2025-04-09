@@ -1,10 +1,12 @@
 const products = [
-   { name: "laptop", price: 1500},
-   { name: "phone", price: 800},
-    { name: "tablet", price: 600},
-    { name: "monitor", price: 1400},
-    { name: "camera", price: 1200},
-
-];
-
-const  = products.filter((price) => price>=1000);
+    { name: "TV", price: 2000 },
+    { name: "Tablet", price: 800 },
+    { name: "Laptop", price: 1500 },
+    { name: "Headphones", price: 150 },
+    { name: "Smartwatch", price: 300 },
+  ];
+  
+  const afforableproduct = products.filter(product => product.price >= 1000);
+  
+  console.log(afforableproduct);
+  
